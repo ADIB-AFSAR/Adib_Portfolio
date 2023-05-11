@@ -1,0 +1,181 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+     font-size: 0px;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.heading {
+     font-variant: small-caps  ; 
+    color: #0cad6a;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: 63px;
+}
+
+.pAgain{
+    color: green;
+    background-color: black;
+    cursor:pointer;
+    font-size: 20px;
+    border: 2px dotted;                                            
+    border-width:2px;
+    border-radius: 25px ;
+    margin-left: 30px;                                                                      
+    margin-top: 40px;
+    padding: 20px;
+}
+.gBtwn{
+    /* font-variant: small-caps  ; */
+    color: yellow;
+    float: right;
+    margin-top:50px;
+    margin-right:20px;
+    font-size:15px;
+}
+ .remark{
+    color: white;
+    font-variant: small-caps  ;
+    font-size: 40px;
+    display: absolute;
+    /* float: right; */
+    /* margin-right: 210px; */
+    margin-top: 50px;
+}
+    /*{color: rgb(245, 245, 245);
+    float: right;
+    font-size: 53px;
+    padding: 15px;
+    margin-right: 212px;
+    padding-top: 30px; 
+}*/
+.sNumber{
+    color: rgb(255, 255, 255);
+    background-color: rgb(147 26 26);;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    padding-top:25px;
+    
+    
+}
+.guessed{
+    background-color: rgb(0 0 0);
+    display: flex;
+    margin-top: 60px;
+    /* margin-left: 180px; */
+    border-width: 6px;
+    border-color: rgb(255, 255, 255);
+    font-size: 62px;
+    width: 197px;
+    padding-left: 55px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+}
+.check{
+    color: #0a0a0a;
+    background-color: rgb(141, 137, 137);
+    display: flex;
+    font-size: 25px;
+    /* font-variant: small-caps ; */
+    /* margin-left: 206px; */
+    cursor: pointer;
+    margin-top: 60px;
+    padding: 16px;
+    width: 210px
+}
+
+.score{
+    color: white;
+    font-size: 37px;
+    display: flex;
+     /* float: right; */
+     /* margin-right: 355px; */
+     margin-top: 50px; 
+     font-variant: small-caps  ;
+    /*padding-right: 33px;*/
+}
+.scoreNum{
+    color: white;
+    font-size: 25px;
+    /* display: flex; */
+     /* float: right; */
+     /* margin-right: 110px; */
+     margin-top: 7px; 
+}
+
+.hScore{
+    color: white;
+    font-variant: small-caps  ;
+    display: flex;
+    /* float: right; */
+    font-size: 30px;
+    /* margin-right: 300px; */
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;}
+    /* margin-right: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
+.hScoreNum{
+    color: white;
+    font-variant: small-caps;
+    display: absolute;
+    /* float: right; */
+    font-size: 30px;
+    /* margin-right: 35px; */
+    margin-top: 0px;
+    padding-top: 5px;
+}
+.result{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+@media ( min-width:219px) and (max-width: 548px) {
+/* .heading{
+    display:block;
+} */
+/* .remark{
+    float: left;
+} */
+.result{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1.5fr;
+    justify-items: center;
+    align-items: center;
+ 
+}
+.score , .scoreNum  , .hScoreNum{
+    font-size: 25px;
+}
+.hScoreNum{
+    margin-top: 20px;
+}
+.hScore{
+    font-size: 25px;
+}
+.guessed{
+    margin-top: 60px;
+    margin-left: 0;
+    margin-right: 8px;
+    font-size: 40px;
+    width: 110px;
+}
+.check{
+    width: 135px;
+    font-size: 20px;
+    margin-left: 0;
+    padding: 5px;
+}
+}

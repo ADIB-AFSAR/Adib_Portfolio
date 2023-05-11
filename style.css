@@ -1,0 +1,49 @@
+body{
+    background-color: #62CDFF;
+    background: linear-gradient(0deg, rgba(52,175,179,0.7987570028011204) 0%, rgba(98,255,193,1) 31%, rgba(0,212,255,1) 95%);
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 0;
+  
+}
+ 
+.top-cloud{
+  position: relative;
+  /* left : 30rem;
+  top : 5rem; */
+}
+ 
+.heading{
+    font-family: 'Sacramento', cursive , sans-serif;
+    font-size: 4rem;
+    color: #035050;
+    font-weight:normal;
+}
+.bottom-cloud{
+    position: relative;
+  bottom: 4rem;
+  right: 5rem;
+}
+.mountain{
+    position: relative;
+    bottom: 3rem;
+    /* right: 1rem; */
+}
+.pro{
+    font-family: 'Merriweather', serif;
+    font-size: 1.5rem;
+    color: #035050;
+    font-weight: normal;
+}
+.bird{
+    position: relative;
+    /* display: inline-block;
+    right: 24rem; */
+    top: 12rem;
+    margin-left: 8rem;
+}
+.top-container{
+    margin-bottom: -5rem;
+    /* background: rgb(52,175,179);
+    background: linear-gradient(0deg, rgba(52,175,179,0.7987570028011204) 0%, rgba(98,255,193,1) 31%, rgba(0,212,255,1) 95%); */
+}

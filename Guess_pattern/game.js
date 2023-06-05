@@ -11,6 +11,12 @@ $(document).keypress(function(){
     nextSequence()
     started=true
  }})
+ $(document).click(function(){
+  if(!started){
+  $('.level').text("level 1")
+  nextSequence()
+  started=true
+}})
  
   level = 0 ;
  function nextSequence() {

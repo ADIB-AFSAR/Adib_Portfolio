@@ -4,6 +4,7 @@ body{
     font-family: 'Roboto Slab', serif;
     text-align: center;
     margin: 0;
+    overflow-x: hidden;
   
 }
  

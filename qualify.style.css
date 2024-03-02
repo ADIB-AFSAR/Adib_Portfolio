@@ -8,11 +8,11 @@
     font-family: 'Roboto Slab', serif;
     text-align: center;
     position: absolute;
-    left: 25%;
+    left: 10%;
     top: 20%;
 }
 .table{
-    width: 40rem;
+    /* width: 40rem; */
     line-height: 2.5rem;
 }
 .quali-bird{
@@ -26,16 +26,26 @@
 }
 .top-cloud{
     position: absolute;
-    right: 0%;
-    top: -100px;
+    right: -3%;
+    top: 35px;
     float: right;
-    height: 120px;
-    width: 140px;
+    height: 100px;
+    width: 100px;
 }
 h2{
-    width: max-content;
     line-height: 4rem;
-    display: inline-block;
     font-family: 'Arial Narrow', Arial, sans-serif;
-    line-height: 6rem;
+    line-height: 3rem;
+    display: block;
+    text-align: center;
+}
+.hobbies{
+    line-height: 2rem;
+   margin-bottom: 1.5rem;
+   text-align: center;
+   margin-left: 2.5rem;
+}
+ul{
+    list-style: none;
+    line-height: 1rem
 }

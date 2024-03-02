@@ -1,0 +1,41 @@
+*{
+ margin: 0;
+ background-color: #62CDFF;
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(52,175,179,0.7987570028011204) 0%, 95%);
+}
+.container{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+.table{
+    width: 40rem;
+    line-height: 2.5rem;
+}
+.quali-bird{
+    width: auto;
+    position: absolute;
+    transition: left 5s;
+    left: 0%;  
+}
+.quali-bird:hover{ 
+    left:100%;
+}
+.top-cloud{
+    position: absolute;
+    right: 0%;
+    top: -100px;
+    float: right;
+    height: 120px;
+    width: 140px;
+}
+h2{
+    width: max-content;
+    line-height: 4rem;
+    display: inline-block;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    line-height: 6rem;
+}

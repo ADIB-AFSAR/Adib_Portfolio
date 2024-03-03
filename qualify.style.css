@@ -12,14 +12,14 @@
     top: 20%;
 }
 .table{
-    /* width: 40rem; */
     line-height: 2.5rem;
 }
 .quali-bird{
     width: auto;
     position: absolute;
     transition: left 5s;
-    left: 0%;  
+    left: 0%; 
+    top: 0%; 
 }
 .quali-bird:hover{ 
     left:100%;
@@ -27,10 +27,11 @@
 .top-cloud{
     position: absolute;
     right: -3%;
-    top: 35px;
+    top: -6%;
     float: right;
     height: 100px;
     width: 100px;
+    
 }
 h2{
     line-height: 4rem;
@@ -49,3 +50,4 @@ ul{
     list-style: none;
     line-height: 1rem
 }
+ 

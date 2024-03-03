@@ -1,17 +1,27 @@
-body{
+ body{
     background-color: #62CDFF;
     background: linear-gradient(0deg, rgba(52,175,179,0.7987570028011204) 0%, rgba(98,255,193,1) 31%, rgba(0,212,255,1) 95%);
     font-family: 'Roboto Slab', serif;
     text-align: center;
     margin: 0;
-    overflow-x: hidden;
-  
+    width: content;
+    overflow-x:hidden;
 }
  
 .top-cloud{
-  position: relative;
-  /* left : 30rem;
-  top : 5rem; */
+    position: absolute;
+    height: 180px;
+    top: 5%;
+    left: 22%;
+    animation: slowmoving 20s ease-in 1 ;
+}
+@keyframes slowmoving {
+    from {
+     transform: translateX(0);
+    }
+    to{
+     transform: translateX(1000px);
+    }
 }
  
 .heading{
@@ -19,32 +29,55 @@ body{
     font-size: 4rem;
     color: #035050;
     font-weight:normal;
+    margin-top: 6rem;
 }
 .bottom-cloud{
-    position: relative;
-  bottom: 4rem;
-  right: 5rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 3%;
+    z-index: 1;
+    animation: slowmoving 18s ease-in 1 ;
+}
+.mid-cloud{
+    position: absolute;
+    right: 18%;
+    top: 42%;
+    height: 100px;
+    width:100px;
+    animation: slowmoving 30s ease-in 1 ;
 }
 .mountain{
     position: relative;
-    bottom: 3rem;
-    /* right: 1rem; */
 }
-.pro{
+.text{
     font-family: 'Merriweather', serif;
     font-size: 1.5rem;
     color: #035050;
     font-weight: normal;
 }
+.highlight:hover{
+    color: #fff;
+    text-shadow: 0 0 10px #fff,0 0 20px #fff,0 0 40px #fff,0 0 80px #fff,0 0 120px #fff,0 0 160px #fff;
+}
 .bird{
-    position: relative;
-    /* display: inline-block;
-    right: 24rem; */
-    top: 12rem;
-    margin-left: 8rem;
+    position: absolute;
+    top: 16rem;
+    margin-left: 5rem;
 }
 .top-container{
     margin-bottom: -5rem;
-    /* background: rgb(52,175,179);
-    background: linear-gradient(0deg, rgba(52,175,179,0.7987570028011204) 0%, rgba(98,255,193,1) 31%, rgba(0,212,255,1) 95%); */
+}
+.row{
+    padding: 1rem;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: #62CDFF;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #14aff7;
+    border: 1px solid #14aff7; 
+    border-radius: 6px;
 }
